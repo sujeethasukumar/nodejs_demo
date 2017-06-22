@@ -1,0 +1,31 @@
+    1  git clone https://github.com/sujeethasukumar/nodejs_demo.git
+    2  ls
+    3  cd nodejs_demo/
+    4  mkdir Akilesh
+    5  cd Akilesh/
+    6  vi package.json
+    7  touch package.json
+    8  nano package.json
+    9  view package.json
+   10  cat package.json 
+   11  vi server.js
+   12  vi Dockerfile
+   13  vi .dockerignore
+   14  docker build -t akilesh/node-web-app .
+   15  docker images
+   16  docker run -p 49160:8080 -d akilesh/node-web-app
+   17  docker ps 
+   18  curl -i localhost:49160
+   19  ls
+   20  docker ps
+   21  ls
+   22  pwd
+   23  git add .
+   24  cd ..
+   25  pwd
+   26  ls
+   27  git add .
+   28  git status
+   29  histroy
+   30  history
+   31  history > Akilesh/commands.txt
